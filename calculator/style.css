@@ -107,3 +107,10 @@ button:focus {
   grid-row: 2 / span 4;
   background: #1373d3;
 }
+
+/* Media Query: Large Smartphone (Vertical) */
+@media screen and (max-width: 600px) {
+  .calculator {
+    width: 95%;
+  }
+}
